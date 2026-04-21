@@ -1,0 +1,36 @@
+# Virtual environment
+venv/
+.venv/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+.eggs/
+
+# Trained models (large binary files — user generates locally)
+results/models/*.pt
+results/models/*.pkl
+models/*.pt
+models/*.pkl
+
+# Generated results
+results/plots/
+results/benchmark_results.pkl
+results/polarity_stats.txt
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbbs.db
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
